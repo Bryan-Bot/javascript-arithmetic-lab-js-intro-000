@@ -1,6 +1,6 @@
 a = 5
 b = 5
-n = 8
+number = 4
 function add(a, b){
 return a + b
 }
@@ -12,4 +12,7 @@ return a * b
 }
 function divide(a, b){
 return a / b
+}
+function increment(number){
+  return number++
 }
