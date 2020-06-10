@@ -29,5 +29,5 @@ function makeInt(n){
 }
 function perserveDecimal(n){
   number = parseFloat(n)
-  return = number
+  return number
 }
