@@ -1,27 +1,33 @@
-a = 5
-b = 5
-n = 8.4
+
 function add(a, b){
-return a + b
+number = a + b
+return number
 }
 function subtract(a, b){
-return a - b
+number = a - b
+return number
 }
 function multiply(a, b){
-return a * b
+number = a * b
+return number
 }
 function divide(a, b){
-return a / b
+number a / b
+return number
 }
 function increment(n){
-  return n++
+  number = n++
+  return number
 }
 function decrement(n){
-  return n--
+  number = n--
+  return number
 }
 function makeInt(n){
-  return parseInt(n)
+  number = parseInt(n)
+  return number
 }
 function perserveDecimal(n){
-  return parseFloat(n)
+  number = parseFloat(n)
+  return = number
 }
