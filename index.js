@@ -1,21 +1,27 @@
+a = 5
+b = 5
+n = 8.4
 function add(a, b){
-  return a + b
+return a + b
 }
 function subtract(a, b){
-  return a - b
+return a - b
 }
 function multiply(a, b){
-  return a * b
+return a * b
 }
 function divide(a, b){
-  return a / b
+return a / b
 }
 function increment(n){
-  return (n++)
+  return n++
 }
 function decrement(n){
-  return (n--)
+  return n--
 }
-function makeInt('10.88888'){
-  return parseInt()
+function makeInt(n){
+  return parseInt(n)
+}
+function perserveDecimal(n){
+  return parseFloat(n)
 }
