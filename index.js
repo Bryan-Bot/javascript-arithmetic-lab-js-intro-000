@@ -16,3 +16,6 @@ function increment(n){
 function decrement(n){
   return (n--)
 }
+function makeInt('10.88888'){
+  return parseInt('10')
+}
